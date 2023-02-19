@@ -25,3 +25,7 @@ jobs:
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
           CUSTOM_HEADER: ${{ secrets.CUSTOM_HEADER }}
           ALLOWED_ORIGINS: ${{ secrets.ALLOWED_ORIGINS }}
+
+- name: NPM Target
+  uses: anna-money/github-actions-npm@v4
+
